@@ -6,6 +6,8 @@ services:
       - 3000:3000
     volumes:
       - ./web:/app
+    environment:
+      - REACT_APP_API_HOST=localhost:8888
   api:
     build:
       context: ./api
