@@ -4,3 +4,6 @@
 [submodule "web"]
 	path = web
 	url = git@github.com:okapusta/issi-react-lab.git
+[submodule "api"]
+	path = api
+	url = git@github.com:okapusta/issi-tw-lab2-rest.git
