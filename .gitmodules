@@ -1,0 +1,6 @@
+[submodule "issi-react-lab"]
+	path = issi-react-lab
+	url = git@github.com:okapusta/issi-react-lab.git
+[submodule "web"]
+	path = web
+	url = git@github.com:okapusta/issi-react-lab.git
