@@ -7,9 +7,13 @@ Docker
 
 ### Running
 
+Fetch modules
+`git submodule update --init --recursive`
+
+Run the stack
 `docker compose up -d`
 
-Web app will be available on port `:3000`
+The web app will be available on port `:3000`
 
 API available on port `:8888`
 
