@@ -11,3 +11,5 @@ services:
       context: ./api
     ports:
       - 8888:8888
+    volumes:
+      - ./api:/app
